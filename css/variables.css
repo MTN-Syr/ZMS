@@ -1,0 +1,122 @@
+/* ==========================================================================
+   PMS - Design tokens & themes
+   All colors/spacing are CSS variables. Light + Dark via [data-theme].
+   Use CSS logical properties (inline/block) for RTL safety.
+   ========================================================================== */
+
+:root {
+  --font-sans: "Segoe UI", Tahoma, Arial, sans-serif;
+  --font-arabic: "Segoe UI", "Tahoma", "Cairo", sans-serif;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+
+  --sidebar-width: 250px;
+  --topbar-height: 56px;
+
+  --z-modal: 1000;
+  --z-loading: 1050;
+  --z-toast: 1100;
+  --z-dropdown: 900;
+
+  --transition: 0.15s ease;
+
+  --status-todo: #6b7280;
+  --status-progress: #3b82f6;
+  --status-review: #8b5cf6;
+  --status-done: #22c55e;
+
+  --prio-low: #16a34a;
+  --prio-medium: #f59e0b;
+  --prio-high: #f97316;
+  --prio-urgent: #ef4444;
+
+  /* Zain brand identity (theme-independent) */
+  --zain-teal: #23AEB7;
+  --zain-purple: #344C98;
+  --brand-grad: linear-gradient(135deg, #23AEB7 0%, #344C98 100%);
+}
+
+/* ---------- Light theme (Zain-inspired) ---------- */
+:root,
+[data-theme="light"] {
+  --bg: #f3f7f8;
+  --bg-elevated: #ffffff;
+  --bg-subtle: #e9f0f1;
+  --bg-hover: #dee9ea;
+  --bg-active: #d3e3e5;
+
+  --text: #15222e;
+  --text-muted: #51606d;
+  --text-faint: #82919c;
+
+  --border: #d3dee0;
+  --border-strong: #bdcbcf;
+
+  --primary: #0e7f88;
+  --primary-hover: #0b6870;
+  --primary-soft: rgba(14, 127, 136, 0.12);
+  --on-primary: #ffffff;
+  --brand-tint: linear-gradient(160deg, #e7f4f4, #edf0f8);
+
+  --success: #0f9d58;
+  --success-soft: rgba(15, 157, 88, 0.12);
+  --warning: #d97706;
+  --warning-soft: rgba(217, 119, 6, 0.14);
+  --danger: #d63d3d;
+  --danger-soft: rgba(214, 61, 61, 0.12);
+  --info: #0891b2;
+  --info-soft: rgba(8, 145, 178, 0.12);
+
+  --shadow-sm: 0 1px 3px rgba(11, 40, 46, 0.08);
+  --shadow-md: 0 6px 18px rgba(11, 40, 46, 0.1);
+  --shadow-lg: 0 12px 32px rgba(11, 40, 46, 0.16);
+}
+
+/* ---------- Dark theme (Zain-inspired deep navy + bright teal) ---------- */
+[data-theme="dark"] {
+  --bg: #0b1220;
+  --bg-elevated: #101a2c;
+  --bg-subtle: #0d1526;
+  --bg-hover: #16223a;
+  --bg-active: #1d2c48;
+
+  --text: #e7edf5;
+  --text-muted: #9fafc4;
+  --text-faint: #677895;
+
+  --border: #23314a;
+  --border-strong: #31425f;
+
+  --primary: #2cc5cb;
+  --primary-hover: #53d3d8;
+  --primary-soft: rgba(44, 197, 203, 0.18);
+  --on-primary: #ffffff;
+  --brand-tint: linear-gradient(160deg, #0f2c38, #181f38);
+
+  --success: #2dd68a;
+  --success-soft: rgba(45, 214, 138, 0.16);
+  --warning: #f5a411;
+  --warning-soft: rgba(245, 164, 17, 0.16);
+  --danger: #f05555;
+  --danger-soft: rgba(240, 85, 85, 0.16);
+  --info: #2dd4ee;
+  --info-soft: rgba(45, 212, 238, 0.16);
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 6px 18px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.6);
+}
+
+/* Gantt & calendar need fixed series of hues regardless of theme */
+:root {
+  --gantt-colors: #2563eb, #7c3aed, #db2777, #ea580c, #16a34a, #0891b2, #ca8a04, #9333ea;
+}

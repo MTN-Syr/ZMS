@@ -1,0 +1,222 @@
+
+ZMS/#/settings:5 The Content Security Policy directive 'frame-ancestors' is ignored when delivered via a <meta> element.
+sync-firestore.js:674 [cloudsync] probe OWN zms_auth_users -> DOC FOUND {personId: null, displayName: 'Ali Ibrahim', role: 'admin', createdAt: '2026-09-26T13:15:16.663Z', email: 'eng.ali.m.ibrahim@gmail.com'}
+(anonymous) @ sync-firestore.js:674
+Promise.then
+(anonymous) @ sync-firestore.js:673
+Promise.catch
+boot @ sync-firestore.js:651
+startApp @ main.js:14
+(anonymous) @ main.js:27
+Promise.then
+boot @ main.js:19
+sync-firestore.js:679 [cloudsync] probe DENIED: Missing or insufficient permissions.
+(anonymous) @ sync-firestore.js:679
+Promise.catch
+(anonymous) @ sync-firestore.js:678
+Promise.catch
+boot @ sync-firestore.js:651
+startApp @ main.js:14
+(anonymous) @ main.js:27
+Promise.then
+boot @ main.js:19
+sync-firestore.js:702 [cloudsync] probe zms_diag/auth (request.auth != null) -> allowed
+(anonymous) @ sync-firestore.js:702
+Promise.then
+(anonymous) @ sync-firestore.js:701
+(anonymous) @ sync-firestore.js:698
+Promise.then
+(anonymous) @ sync-firestore.js:697
+Promise.then
+(anonymous) @ sync-firestore.js:680
+Promise.catch
+boot @ sync-firestore.js:651
+startApp @ main.js:14
+(anonymous) @ main.js:27
+Promise.then
+boot @ main.js:19
+sync-firestore.js:702 [cloudsync] probe zms_diag/get (literal get() role==admin) -> allowed
+(anonymous) @ sync-firestore.js:702
+Promise.then
+(anonymous) @ sync-firestore.js:701
+(anonymous) @ sync-firestore.js:698
+Promise.then
+(anonymous) @ sync-firestore.js:697
+Promise.then
+(anonymous) @ sync-firestore.js:680
+Promise.catch
+boot @ sync-firestore.js:651
+startApp @ main.js:14
+(anonymous) @ main.js:27
+Promise.then
+boot @ main.js:19
+sync-firestore.js:702 [cloudsync] probe zms_diag/exists (literal exists()) -> allowed
+(anonymous) @ sync-firestore.js:702
+Promise.then
+(anonymous) @ sync-firestore.js:701
+(anonymous) @ sync-firestore.js:698
+Promise.then
+(anonymous) @ sync-firestore.js:697
+Promise.then
+(anonymous) @ sync-firestore.js:680
+Promise.catch
+boot @ sync-firestore.js:651
+startApp @ main.js:14
+(anonymous) @ main.js:27
+Promise.then
+boot @ main.js:19
+sync-firestore.js:704 [cloudsync] probe zms_diag/active (literal get().data.active != false) -> DENIED: Missing or insufficient permissions.
+(anonymous) @ sync-firestore.js:704
+Promise.catch
+(anonymous) @ sync-firestore.js:703
+(anonymous) @ sync-firestore.js:698
+Promise.then
+(anonymous) @ sync-firestore.js:697
+Promise.then
+(anonymous) @ sync-firestore.js:680
+Promise.catch
+boot @ sync-firestore.js:651
+startApp @ main.js:14
+(anonymous) @ main.js:27
+Promise.then
+boot @ main.js:19
+sync-firestore.js:704 [cloudsync] probe zms_diag/activeNeg (!(get().data.active == false)) -> DENIED: Missing or insufficient permissions.
+(anonymous) @ sync-firestore.js:704
+Promise.catch
+(anonymous) @ sync-firestore.js:703
+(anonymous) @ sync-firestore.js:698
+Promise.then
+(anonymous) @ sync-firestore.js:697
+Promise.then
+(anonymous) @ sync-firestore.js:680
+Promise.catch
+boot @ sync-firestore.js:651
+startApp @ main.js:14
+(anonymous) @ main.js:27
+Promise.then
+boot @ main.js:19
+sync-firestore.js:702 [cloudsync] probe zms_diag/hasrole (hasRole call) -> allowed
+(anonymous) @ sync-firestore.js:702
+Promise.then
+(anonymous) @ sync-firestore.js:701
+(anonymous) @ sync-firestore.js:698
+Promise.then
+(anonymous) @ sync-firestore.js:697
+Promise.then
+(anonymous) @ sync-firestore.js:680
+Promise.catch
+boot @ sync-firestore.js:651
+startApp @ main.js:14
+(anonymous) @ main.js:27
+Promise.then
+boot @ main.js:19
+sync-firestore.js:702 [cloudsync] probe zms_auth/bootstrap (signupCanRead) -> allowed
+(anonymous) @ sync-firestore.js:702
+Promise.then
+(anonymous) @ sync-firestore.js:701
+(anonymous) @ sync-firestore.js:698
+Promise.then
+(anonymous) @ sync-firestore.js:697
+Promise.then
+(anonymous) @ sync-firestore.js:680
+Promise.catch
+boot @ sync-firestore.js:651
+startApp @ main.js:14
+(anonymous) @ main.js:27
+Promise.then
+boot @ main.js:19
+sync-firestore.js:704 [cloudsync] probe zms_meta/probe (isActiveUser) -> DENIED: Missing or insufficient permissions.
+(anonymous) @ sync-firestore.js:704
+Promise.catch
+(anonymous) @ sync-firestore.js:703
+(anonymous) @ sync-firestore.js:698
+Promise.then
+(anonymous) @ sync-firestore.js:697
+Promise.then
+(anonymous) @ sync-firestore.js:680
+Promise.catch
+boot @ sync-firestore.js:651
+startApp @ main.js:14
+(anonymous) @ main.js:27
+Promise.then
+boot @ main.js:19
+sync-firestore.js:704 [cloudsync] probe zms_meta/state (isActiveUser) -> DENIED: Missing or insufficient permissions.
+(anonymous) @ sync-firestore.js:704
+Promise.catch
+(anonymous) @ sync-firestore.js:703
+(anonymous) @ sync-firestore.js:698
+Promise.then
+(anonymous) @ sync-firestore.js:697
+Promise.then
+(anonymous) @ sync-firestore.js:680
+Promise.catch
+boot @ sync-firestore.js:651
+startApp @ main.js:14
+(anonymous) @ main.js:27
+Promise.then
+boot @ main.js:19
+sync-firestore.js:704 [cloudsync] probe zms_tasks/data (isTeamMember && isActiveUser) -> DENIED: Missing or insufficient permissions.
+(anonymous) @ sync-firestore.js:704
+Promise.catch
+(anonymous) @ sync-firestore.js:703
+(anonymous) @ sync-firestore.js:698
+Promise.then
+(anonymous) @ sync-firestore.js:697
+Promise.then
+(anonymous) @ sync-firestore.js:680
+Promise.catch
+boot @ sync-firestore.js:651
+startApp @ main.js:14
+(anonymous) @ main.js:27
+Promise.then
+boot @ main.js:19
+sync-firestore.js:711 [cloudsync] boot failed FirebaseError: Missing or insufficient permissions.
+(anonymous) @ sync-firestore.js:711
+Promise.then
+(anonymous) @ sync-firestore.js:707
+Promise.then
+(anonymous) @ sync-firestore.js:680
+Promise.catch
+boot @ sync-firestore.js:651
+startApp @ main.js:14
+(anonymous) @ main.js:27
+Promise.then
+boot @ main.js:19
+webchannel_connection.ts:279  POST https://firestore.googleapis.com/google.firestore.v1.Firestore/Listen/channel?VER=8&database=projects%2Ftest-d371d%2Fdatabases%2F(default)&gsessionid=bHWvAObmTAj2enzIkmZvT6A2TDngNc3rpJSnLB9XkyiZS_1zXn5HAg&SID=LnWP6O1hFGZ5MNoIfnkepw&RID=34356&TYPE=terminate&zx=55o6zvdmvode net::ERR_BLOCKED_BY_CLIENT
+gc @ webchannel_blob_es2018.js:69
+(anonymous) @ webchannel_blob_es2018.js:82
+(anonymous) @ webchannel_connection.ts:279
+close @ stream_bridge.ts:66
+close @ persistent_stream.ts:404
+stop @ persistent_stream.ts:269
+(anonymous) @ remote_store.ts:949
+__PRIVATE_disableNetworkInternal @ remote_store.ts:250
+(anonymous) @ remote_store.ts:260
+terminate @ remote_store.ts:254
+(anonymous) @ firestore_client.ts:196
+then @ async_queue_impl.ts:186
+Promise.then
+__PRIVATE_enqueueInternal @ async_queue_impl.ts:184
+enqueueAndForgetEvenWhileRestricted @ async_queue_impl.ts:101
+terminate @ firestore_client.ts:193
+_terminate @ database.ts:124
+_delete @ database.ts:136
+(anonymous) @ provider.ts:211
+delete @ provider.ts:211
+(anonymous) @ api.ts:387
+deleteApp @ api.ts:387
+(anonymous) @ firebaseApp.ts:104
+Promise.then
+delete @ firebaseApp.ts:102
+teardown @ sync-firestore.js:518
+(anonymous) @ sync-firestore.js:709
+Promise.then
+(anonymous) @ sync-firestore.js:707
+Promise.then
+(anonymous) @ sync-firestore.js:680
+Promise.catch
+boot @ sync-firestore.js:651
+startApp @ main.js:14
+(anonymous) @ main.js:27
+Promise.then
+boot @ main.js:19
